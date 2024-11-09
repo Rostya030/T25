@@ -1,0 +1,30 @@
+div > h3 {
+    color: #ffc0cb;
+}
+h3 {
+    color: #ffc0cb;
+}
+
+.yellow {
+    color: #FFFF00 ;
+}
+
+#greycol {
+    color: #6e6e6e;
+}
+
+h3 {
+    color: #000000;
+}
+
+div + h3 + p
+{
+    color: #008000;
+}
+div + h3 {
+    color: #000000;
+}
+
+div > div > p {
+    color: #ff0000;
+}
