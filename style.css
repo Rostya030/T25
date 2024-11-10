@@ -28,3 +28,48 @@ div + h3 {
 div > div > p {
     color: #ff0000;
 }
+/* ЗАВДАННЯ 2 */
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
+    background-size: 400000% 400000%;
+    animation: gradient 5s ease infinite;
+}
+.recipe-container {  
+    display: flex; /* Используем flexbox для упорядочивания элементов */  
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку при недостатке места */  
+    justify-content: flex-start; /* Выравнивание по началу контейнера */  
+    margin: 5px; /* Убираем отступы у контейнера */  
+    padding: 5px; /* Убираем внутренние отступы у контейнера */  
+}  
+
+.recipe-item {  
+    position: relative;  
+    margin: 10px; /* Изменяем отступы для создания сетки */  
+    padding: 15px 15px 15px 50px;  
+    background-color: #ffffff;  
+    border: 2px solid #3498db;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    width: calc(25% - 20px); /* Задаем ширину, чтобы вмещать 4 элемента в ряд с учетом отступов */  
+    box-sizing: border-box; /* Включаем паддинги в ширину элемента */  
+}  
+
+/* нормальна частина завдання 2 */  
+body > main > section > ol > li > h2 {  
+    color: #ff0000;  
+}  
+
+.recipe-item h3:nth-of-type(1) {  
+    color: rgb(255, 0, 43); /* мистецтво */  
+}  
+
+h2 {  
+    color: #ff9900; /* Загальний стиль заголовка h2 */  
+}
+.lor {
+    color: #2600ff;
+}
