@@ -16,7 +16,6 @@ h3 {
 h3 {
     color: #000000;
 }
-
 div + h3 + p
 {
     color: #008000;
@@ -29,14 +28,11 @@ div > div > p {
     color: #ff0000;
 }
 /* ЗАВДАННЯ 2 */
-html, body {
-    height: 100%;
-}
 body {
     margin: 0;
     background: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
-    background-size: 400000% 400000%;
-    animation: gradient 5s ease infinite;
+    background-size: 4000% 4000%;
+    animation: gradient 1s ease infinite;
 }
 .recipe-container {  
     display: flex; /* Используем flexbox для упорядочивания элементов */  
@@ -82,12 +78,15 @@ h3:first-child{
  div + div + h3 + p{
     color: green;
 }
-.yellow{
+.yellow:nth-child(even){
     color: yellow;
 }
-#greycol{
+#greycol:nth-child(-n+2) {
     color: gray;
 }
-.yellow > p{
+.yellow > p:nth-child(-n+2){
     color: green;
+}
+.ser-seswe:only-child {
+    color: #6e6e6e;
 }
