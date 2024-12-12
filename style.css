@@ -1,92 +1,12 @@
-div > h3 {
-    color: #ffc0cb;
-}
-h3 {
-    color: #ffc0cb;
-}
-
-.yellow {
-    color: #FFFF00 ;
-}
-
-#greycol {
-    color: #6e6e6e;
-}
-
-h3 {
-    color: #000000;
-}
-div + h3 + p
-{
-    color: #008000;
-}
-div + h3 {
-    color: #000000;
-}
-
-div > div > p {
-    color: #ff0000;
-}
-/* ЗАВДАННЯ 2 */
-body {
-    margin: 0;
-    background: linear-gradient(45deg, #2980B9, #6DD5FA, #FFFFFF);
-    background-size: 4000% 4000%;
-    animation: gradient 1s ease infinite;
-}
-.recipe-container {  
-    display: flex; /* Используем flexbox для упорядочивания элементов */  
-    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку при недостатке места */  
-    justify-content: flex-start; /* Выравнивание по началу контейнера */  
-    margin: 5px; /* Убираем отступы у контейнера */  
-    padding: 5px; /* Убираем внутренние отступы у контейнера */  
-}  
-
-.recipe-item {  
-    position: relative;  
-    margin: 10px; /* Изменяем отступы для создания сетки */  
-    padding: 15px 15px 15px 50px;  
-    background-color: #ffffff;  
-    border: 2px solid #3498db;  
-    border-radius: 10px;  
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
-    width: calc(25% - 20px); /* Задаем ширину, чтобы вмещать 4 элемента в ряд с учетом отступов */  
-    box-sizing: border-box; /* Включаем паддинги в ширину элемента */  
-}  
-
-/* нормальна частина завдання 2 */  
-body > main > section > ol > li > h2 {  
-    color: #ff0000;  
-}  
-
-.recipe-item h3:nth-of-type(1) {  
-    color: rgb(255, 0, 43); /* мистецтво */  
-}  
-
-h2 {  
-    color: #ff9900; /* Загальний стиль заголовка h2 */  
-}
-.lor {
-    color: #2600ff;
-}
-h3:first-child{
-    color: pink;
-}
-.text-box > div > p{
-    color: red;
-}
- div + div + h3 + p{
-    color: green;
-}
-.yellow:nth-child(even){
-    color: yellow;
-}
-#greycol:nth-child(-n+2) {
-    color: gray;
-}
-.yellow > p:nth-child(-n+2){
-    color: green;
-}
-.ser-seswe:only-child {
-    color: #6e6e6e;
-}
+.wall  {  
+    width: 350px;  
+    height: 220px;  
+    background-color: green;  
+    padding: 15px 10px 20px 10px; /* зверху, зліва, знизу, справа */  
+    margin-bottom: 30px; /* зовнішній відступ знизу */  
+    border: 2px dotted red; /* пунктирна червона границя */  
+} 
+.img-pic {
+    width: 350px;
+    height: 220px;
+} 
