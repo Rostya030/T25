@@ -1,12 +1,32 @@
-.wall  {  
-    width: 350px;  
-    height: 220px;  
-    background-color: green;  
-    padding: 15px 10px 20px 10px; /* зверху, зліва, знизу, справа */  
-    margin-bottom: 30px; /* зовнішній відступ знизу */  
-    border: 2px dotted red; /* пунктирна червона границя */  
-} 
-.img-pic {
-    width: 350px;
-    height: 220px;
-} 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.8;
+}
+
+.square:nth-child(2) {
+    background-color: blue;
+    transform: translate(50px, 50px);
+}
+
+.square:nth-child(3) {
+    background-color: green;
+    transform: translate(100px, 100px);
+}
