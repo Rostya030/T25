@@ -1,0 +1,10 @@
+const firstName = "megapro";
+console.log(firstName);
+let lastName = "coderultra";
+console.log(lastName);
+console.log(typeof lastName);
+const number = 993;
+console.log(number);
+console.log(number);
+const number2 = "true";
+console.log(typeof number2);
