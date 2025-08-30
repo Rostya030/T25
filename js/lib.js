@@ -12,7 +12,7 @@ const myNull = null;
 console.log(myNull);
 console.log(typeof myNull);
 
-const promtOne = prompt("Введите свое место проживания");
+const promtOne = prompt("Введiть свое мiсто");
 console.log(promtOne);
 
 const isComing = confirm("Цей сайт може бути не безпечним!! (ваш антивирус ОМегаПроВирусъ)");
