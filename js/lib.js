@@ -20,7 +20,7 @@ console.log(typeof myNull);
 
 const userName = prompt("Введiть свое мiсто");
 const alertOne = alert (userName)
-console.log(promtOne);
+console.log(userName);
 
 const userAnswer = confirm("Цей сайт може бути не безпечним!! (ваш антивирус ОМегаПроВирусъ)");
 console.log(userAnswer);
