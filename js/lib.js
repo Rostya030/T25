@@ -25,6 +25,10 @@ console.log(userName);
 const userAnswer = confirm("Цей сайт може бути не безпечним!! (ваш антивирус ОМегаПроВирусъ)");
 console.log(userAnswer);
 
+alert("Увага! Дія може бути небезпечною.");
+const userConfirmed = confirm("Ви впевнені, що хочете продовжити?");
+console.log(userConfirmed);
+
 const myAge = 13;
 console.log(myAge);
 
